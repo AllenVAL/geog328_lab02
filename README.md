@@ -29,8 +29,6 @@ geog328_lab02/
 └─img/
 cover.jpg
 
-yaml
-复制代码
 
 Each page serves a purpose:
 - **index.html** – Homepage introduction and site overview  
