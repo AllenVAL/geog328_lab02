@@ -14,21 +14,6 @@ The website topic is **"The Art of the Balisong"**, which introduces the Filipin
 ---
 
 ## 🧩 Website Structure
-geog328_lab02/
-│ index.html
-│ section1.html
-│ section2.html
-│ section3.html
-│ see_also.html
-│ references.html
-│ README.md
-├─css/
-│ main.css
-├─js/
-│ main.js
-└─img/
-cover.jpg
-
 
 Each page serves a purpose:
 - **index.html** – Homepage introduction and site overview  
