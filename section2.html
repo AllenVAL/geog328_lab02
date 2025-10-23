@@ -1,46 +1,52 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Page Title</title>
-
-    <!-- Including the main.css file for styling -->
-    <link rel="stylesheet" href="css/main.css">
-
-    <!-- Including the Font Awesome CSS library for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Balisong - Design</title>
+  <link rel="stylesheet" href="css/main.css">
 </head>
-
 <body>
 
-    <!-- Navigation bar -->
-    <div class="topnav" id="myTopnav">
-        <!-- Links to different sections -->
-        <a href="index.html">Abstract</a>
-        <a href="section1.html">Section 1</a>
+<div class="topnav" id="myTopnav">
+  <a href="index.html">Home</a>
+  <a href="section1.html">Section 1</a>
+  <a href="section2.html" class="active">Section 2</a>
+  <a href="section3.html">Section 3</a>
+  <a href="see_also.html">See Also</a>
+  <a href="references.html">References</a>
+  <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">&#9776;</a>
+</div>
 
-        <!-- Active link pointing to the section2.html page -->
-        <a class="active" href="section2.html">Section 2</a>
+<div class="content">
+  <h2>Design and Mechanics</h2>
+   <p>
+    A balisong is made of three main parts: a <b>blade</b>, two <b>handles</b> that rotate around the tang, and a <b>latch</b> to hold it closed.
+    The knife’s unique folding design allows the blade to be hidden safely inside the handles when not in use, making it both compact and secure.
+  </p>
 
-        <a href="section3.html">Section 3</a>
-        <a href="see_also.html">See Also</a>
-        <a href="references.html">References</a>
+  <p>
+    The handles are usually made of materials like stainless steel, titanium, or G10 fiberglass, while the blade is often made from carbon steel or Damascus steel for strength and edge retention.
+    The smooth rotation is achieved by using either washers or bushings, which reduce friction and make flipping easier.
+  </p>
 
-        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links on smaller screens -->
-        <a href="javascript:void(0);" class="icon">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
+  <p>
+    Many balisongs today are designed for <b>flipping practice</b> rather than cutting.
+    These versions, called <i>trainers</i>, have blunt edges so users can safely learn tricks such as the “basic open,” “aerial,” or “behind-the-back” flip without injury.
+  </p>
 
-    <!-- Page content -->
-    <div class="content">
-        <!-- Section 2 content -->
-        This is section 2.
-    </div>
+  <p>
+    The balance between the blade and handles is very important. A well-balanced balisong feels light in hand and allows smooth transitions between moves.
+    Enthusiasts often customize their knives by adjusting handle weights or swapping pivot screws to achieve the perfect feel.
+  </p>
 
-    <!-- Including the main.js file for JavaScript functionality -->
-    <script src="js/main.js"></script>
+  <p>
+    Overall, the design of the balisong shows how engineering and art can come together:
+    it’s a practical tool, a performance instrument, and a symbol of precision craftsmanship.
+  </p>
+</div>
 
+<footer>© 2025 Allen Yuan</footer>
+<script src="js/main.js"></script>
 </body>
-
 </html>
